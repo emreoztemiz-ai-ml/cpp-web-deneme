@@ -1,7 +1,6 @@
 services:
   - type: web
     name: cpp-web-deneme
-    env: node
-    buildCommand: "npm install"
-    startCommand: "node server.js"
+    env: docker
     plan: free
+    dockerfilePath: ./Dockerfile
