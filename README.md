@@ -56,6 +56,6 @@ Katkıda bulunmak istersen pull request göndermekten çekinme! 🤝
 
 ## 📷 Görünüm
 
-![cpp web deneme screenshot]([https://user-images.githubusercontent.com/your-image-path/preview.png](https://github-production-user-asset-6210df.s3.amazonaws.com/178294790/440113425-adffa3f3-c84c-4fb9-80dd-a2a7172835e1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250503%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250503T103541Z&X-Amz-Expires=300&X-Amz-Signature=321efe3022a04ecdcd02e5c477cae7f90cf75879a3b4f46452fbd3de2b6039b4&X-Amz-SignedHeaders=host)) 
+![cpp web deneme screenshot](https://github.com/user-attachments/assets/adffa3f3-c84c-4fb9-80dd-a2a7172835e1) 
 
 MIT License
