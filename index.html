@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>C++ Online Deneme</title>
+</head>
+<body>
+  <h2>C++ Kodunuzu Yazın</h2>
+  <textarea id="code" rows="15" cols="70">// örnek C++ kodu\n#include<iostream>\nint main() { std::cout << "Merhaba!"; return 0; }</textarea><br />
+  <button onclick="runCode()">Çalıştır</button>
+  <h3>Çıktı:</h3>
+  <pre id="output"></pre>
+
+  <script>
+    async function runCode() {
+      const code = document.getElementById("code").value;
+      const res = await fetch("/run", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ code }),
+      });
+      const text = await res.text();
+      document.getElementById("output").textContent = text;
+    }
+  </script>
+</body>
+</html>
