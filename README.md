@@ -29,13 +29,8 @@ Bu proje, web tarayıcısı üzerinden C++ kodlarını yazıp **çevrimiçi olar
 
 ---
 
-## ⚠️ Uyarı
-
-Bu uygulama, arka planda C++ kodlarını doğrudan sunucuda çalıştırır. Bu sebeple:
-
-- Sadece güvenilir kullanıcılarla paylaşın.
-- Kötü amaçlı kodları çalıştırmaya karşı koruma içermez.
-
+## Artık Daha Güvenli
+exec önceden daha korunmasızdı, ancak, hem settimeout eklenerek, hem de UUID (universally unique identifier) kullanılarak endişelerden daha uzak bir yapıya kavuşmuştur. Her ihtimale karşı Sandbox içerisinde kullanılması gerekli diye düşünüyorum.
 ---
 
 ## 🛠️ Teknolojiler
